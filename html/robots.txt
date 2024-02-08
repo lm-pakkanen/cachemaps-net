@@ -1,0 +1,23 @@
+User-agent:*
+
+Disallow: 404.php
+Disallow: create_map.php
+Disallow: feedback.php
+Disallow: help.php
+Disallow: help-eng.php
+Disallow: help-fi.php
+Disallow: login.php
+Disallow: myaccount.php
+Disallow: readme-eng.html
+Disallow: readme-fi.html
+
+Noindex: 404.php
+Noindex: create_map.php
+Noindex: feedback.php
+Noindex: help.php
+Noindex: help-eng.php
+Noindex: help-fi.php
+Noindex: login.php
+Noindex: myaccount.php
+Noindex: readme-eng.html
+Noindex: readme-fi.html

@@ -1,0 +1,73 @@
+body {
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+
+svg {
+  overflow: visible;
+}
+
+.map-div-date,
+.map-div-name,
+.canvas,
+.map-div-copyright,
+.map-div-nickname {
+  pointer-events: none;
+  font-size: 22px;
+  position: absolute;
+}
+
+.map-div-date {
+  color: rgba(25, 133, 6, 0.8);
+  left: 68%;
+  bottom: 65px;
+}
+
+.map-div-name {
+  color: rgba(25, 133, 6, 1);
+  left: 80px;
+  top: 70px;
+}
+
+.canvas {
+  left: 80px;
+  top: 400px;
+}
+
+.map-div-copyright {
+  font-size: 25px;
+  left: 68%;
+  bottom: 30px;
+}
+
+.map-div-nickname {
+  left: 30px;
+  top: 45px;
+}
+
+.printer-text {
+  font-family: "Arial Rounded MT Bold", sans-serif;
+  font-size: 12px;
+  fill: black;
+}
+
+.page {
+  display: none;
+}
+
+.text-printer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: Garamond, sans-serif;
+  font-size: 45px;
+  color: white;
+  width: 80%;
+}
+
+.btn-green {
+  width: 170px;
+  height: 60px;
+  font-size: 30px;
+}

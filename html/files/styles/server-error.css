@@ -1,0 +1,79 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+img {
+  max-height: 120px;
+  max-width: 180px;
+}
+
+#page-wrapper {
+  background: url("../clouds2304x1296.jpg") center no-repeat;
+}
+
+#page-shader {
+  align-items: center;
+  overflow: auto;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px 20px;
+  flex: 1;
+}
+
+.container-custom {
+  background: white;
+  border: 3px solid hsla(0, 0%, 0%, 0.6);
+  border-radius: 35px;
+  max-width: 800px;
+  height: 500px;
+  padding: 20px;
+  flex: 1;
+}
+
+.error-title {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 60px;
+  line-height: 120px;
+  margin-top: 10px;
+}
+
+.error-details {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.secondary-navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 120px;
+}
+
+.fa-exclamation-triangle {
+  color: hsla(10, 80%, 40%, 1) !important;
+  margin: 0 20px;
+}
+
+#error-title-403 {
+  line-height: 70px;
+}
+
+#secondary-navigation-403 {
+  margin-top: 20px;
+}

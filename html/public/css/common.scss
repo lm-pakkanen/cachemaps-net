@@ -1,0 +1,53 @@
+/* VARIABLES */
+
+$shader_color: hsla(0, 0%, 0%, 0.55);
+$default_font: sans-serif;
+
+$page_title_color: hsla(0, 0%, 10%, 0.7);
+$page_title_border: hsla(0, 0%, 40%, 1);
+
+/* Elements */
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $default_font;
+}
+
+/* Classes */
+
+.page-wrapper {
+  position: relative;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.shader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: $shader_color;
+}
+
+.page-title {
+  font-size: 105px;
+  color: $page_title_color;
+  margin: 35px 0 40px;
+  text-decoration: underline;
+  text-align: center;
+  text-shadow: -2px -2px 0 $page_title_border, 2px -2px 0 $page_title_border,
+    -2px 2px 0 $page_title_border, 2px 2px 0 $page_title_border;
+}
+
+.spacer {
+  display: block;
+  flex: 1;
+}

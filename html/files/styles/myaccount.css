@@ -1,0 +1,142 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  font-size: 20px;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: right;
+}
+
+p {
+  margin: 0;
+}
+
+#page-wrapper {
+  background: url("../clouds2304x1296.jpg") center no-repeat;
+}
+
+#page-shader {
+  overflow: auto;
+}
+
+.text-input {
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid hsla(0, 0%, 0%, 0.6);
+  margin-bottom: 5px;
+}
+
+.box-submit {
+  width: initial;
+  line-height: 30px;
+  padding: 0 18px;
+  background: hsla(120, 90%, 30%, 1);
+  border-radius: 5px;
+  border: 2px solid hsla(0, 0%, 0%, 0.4);
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.box-submit:hover {
+  background: hsla(120, 70%, 40%, 1);
+}
+
+.main {
+  padding: 0 20px 50px 20px;
+}
+
+.container-custom {
+  height: auto;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px;
+  background: hsla(0, 0%, 900%, 0.9);
+  border: 3px solid hsla(0, 0%, 0%, 0.6);
+  border-radius: 65px;
+  flex: 1;
+}
+
+.container-title {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 40px;
+}
+
+.table-holder {
+  flex: 1;
+  overflow-x: auto;
+}
+
+.update-details-container {
+  text-align: center;
+  margin: 30px 0;
+  border: 3px solid hsla(0, 0%, 0%, 0.6);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.update-details-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.update-details-form > div {
+  margin-top: 5px;
+  flex-grow: 1;
+  max-width: 250px;
+}
+
+.text-input,
+#update-details-button {
+  width: 100%;
+}
+
+.delete-account-container {
+  text-align: center;
+  border: 3px solid hsla(0, 0%, 0%, 0.6);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.delete-account-form {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    padding: 0 10px 50px 10px;
+  }
+
+  .container-custom {
+    padding: 40px 15px;
+  }
+
+  th,
+  td {
+    font-size: 16px;
+  }
+}

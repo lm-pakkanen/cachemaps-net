@@ -1,0 +1,113 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+i {
+  margin-bottom: -4px;
+}
+
+#page-wrapper {
+  background: url("../clouds2304x1296.jpg") top center repeat-y;
+}
+
+#page-shader {
+  background: hsla(0, 0%, 0%, 0.6);
+  overflow: auto;
+}
+
+.container-custom-wrapper {
+  margin: 0 80px;
+}
+
+.container-custom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  flex: 1;
+}
+
+.section-box {
+  background: hsla(0, 0%, 90%, 1);
+  border: 2px solid black;
+  padding: 30px 50px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.section-box.main {
+  flex-direction: column;
+}
+
+.section-expand {
+  margin-left: auto;
+}
+
+.section-title {
+  display: flex;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.section-content {
+  overflow: hidden;
+  font-family: sans-serif;
+  font-size: 20px;
+  word-wrap: break-word;
+}
+
+.code {
+  margin-bottom: 15px;
+  background: rgba(180, 180, 180, 0.5);
+  padding: 10px 25px;
+}
+
+.code-title {
+  font-weight: bold;
+  margin-top: 15px;
+  background: rgba(25, 133, 6, 0.85);
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-family: Garamond, sans-serif;
+  padding: 6px 25px;
+}
+
+.language-selectors {
+  margin-top: 20px;
+  height: 50px;
+}
+
+.btn-green {
+  height: 50px;
+  line-height: 50px;
+}
+
+.link-green {
+  text-decoration: underline;
+}
+
+.section-anchor {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+@media screen and (max-width: 540px) {
+  .container-custom-wrapper {
+    margin: 0 10px;
+  }
+}

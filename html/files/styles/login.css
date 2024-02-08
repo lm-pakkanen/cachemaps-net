@@ -1,0 +1,225 @@
+/* Elements */
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+p {
+  margin: 0;
+}
+
+/* IDs */
+
+#page-wrapper {
+  background: url("../login2304x1296.jpg") center bottom no-repeat;
+}
+
+#page-shader {
+  background: hsla(0, 0%, 0%, 0.35);
+}
+
+#forgot-password-link,
+#login-form-link {
+  margin-top: 15px;
+}
+
+#register-form-link {
+  margin: 5px 0;
+}
+
+/* General */
+
+/* Specific */
+
+.login-error {
+  color: hsla(10, 100%, 40%, 1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form-wrapper-horizontal {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
+
+.login-form-wrapper-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 0 10px;
+  max-height: 740px;
+  max-width: 500px;
+  flex: 1;
+  overflow: visible;
+}
+
+.login-form-container,
+.register-form-container,
+.reset-password-form-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 60px;
+  flex-shrink: 1;
+  background: hsla(0, 0%, 0%, 0.6);
+  color: #fff;
+  overflow-y: auto;
+  margin: 20px;
+  overflow-y: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  min-width: 280px;
+  width: inherit;
+}
+
+.login-form-container {
+  min-height: 430px;
+  max-height: 500px;
+}
+
+.reset-password-form-container {
+  max-height: 520px;
+}
+
+.register-form-container {
+  height: 700px;
+}
+
+.register-form-container::-webkit-scrollbar,
+.login-form-container::-webkit-scrollbar,
+.reset-password-form-container::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.register-form-container,
+.reset-password-form-container {
+  display: none;
+}
+
+.register-form-container {
+  border-radius: 50px;
+  max-height: 540px;
+}
+
+.login-form-title,
+.register-form-title,
+.reset-password-form-title {
+  margin: 35px 10px 0 10px;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+.login-form-inputs,
+.register-form-inputs,
+.reset-password-form-inputs {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 15px 60px 30px 60px;
+}
+
+.login-form-container input,
+.register-form-container input,
+.reset-password-form-container input {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.login-form-container input[type="submit"],
+.register-form-container input[type="submit"],
+.reset-password-form-container input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: rgb(25, 133, 6);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  margin: 0;
+  max-height: 45px;
+}
+
+.login-form-container button,
+.register-form-container button,
+.reset-password-form-container button {
+  border: none;
+  outline: none;
+  height: 30px;
+  word-break: keep-all;
+  white-space: normal;
+  font-size: 15px;
+  text-decoration: underline;
+  background: transparent;
+  color: white;
+}
+
+.register-form-container button {
+  height: 40px;
+}
+
+.login-form-container button:hover,
+.register-form-container button:hover,
+.reset-password-form-container button:hover {
+  color: rgba(25, 166, 3, 0.8);
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1900px) and (max-height: 1000px) {
+  #page-wrapper {
+    background: url("../login1920x1080.jpg") center bottom;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .login-form-wrapper-vertical,
+  .login-form-container,
+  .register-form-container,
+  .reset-password-form-container {
+    max-width: 420px;
+    flex: 1;
+  }
+
+  .login-form-wrapper-horizontal {
+    min-height: 425px;
+    max-height: 435px;
+  }
+
+  .register-form-title,
+  .login-form-title,
+  .reset-password-form-title {
+    margin-top: 25px;
+    word-break: break-word;
+  }
+
+  .login-form-inputs,
+  .register-form-inputs,
+  .reset-password-form-inputs {
+    padding: 20px 30px 15px 30px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  #account-dropdown-under-dropdown {
+    top: -65px;
+  }
+}

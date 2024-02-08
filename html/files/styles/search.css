@@ -1,0 +1,94 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#page-wrapper {
+  background: url("../clouds2304x1296.jpg") center no-repeat;
+}
+
+.search-input {
+  margin-right: 5px;
+  padding: 5px 20px;
+  border: 2px solid hsla(0, 0%, 0%, 0.7);
+  border-radius: 5px;
+  flex: 1;
+}
+
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 10px 20px 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  padding: 20px;
+  border: 3px solid hsla(0, 0%, 15%, 0.6);
+  border-radius: 20px;
+  background: white;
+  min-height: 300px;
+  flex: 1;
+}
+
+.search-input-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.search-output-container {
+  padding: 20px;
+  margin-top: 20px;
+  border: 2px solid hsla(0, 0%, 0%, 0.7);
+  border-radius: 5px;
+  overflow: auto;
+  text-align: center;
+  flex: 1;
+}
+
+.output-item {
+  display: block;
+  color: black;
+  text-decoration: none;
+  min-height: 35px;
+  line-height: 35px;
+  margin: 0 10px 5px 10px;
+  padding: 5px 0;
+  border: 2px solid hsla(0, 0%, 20%, 0.8);
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.output-item:hover {
+  color: white;
+  background: hsla(0, 0%, 0%, 0.9);
+  text-decoration: none;
+}
+
+.output-item-empty {
+  font-size: 22px;
+  min-height: 40px;
+  line-height: 40px;
+}
+
+@media screen and (max-width: 386px) {
+  .search-input {
+    text-align: center;
+  }
+
+  #search-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
